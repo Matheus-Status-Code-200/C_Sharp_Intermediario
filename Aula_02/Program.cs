@@ -12,7 +12,7 @@ class Program
 
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("\nTratamento de exceção");
-        Console.WriteLine("--------------------------------\n");
+        Console.WriteLine("-----------------------------------\n");
         Console.WriteLine("Este programa trata os erros gerados.");
         Console.WriteLine("Cada interação na lista gera uma erro diferente que será tratado em cada Catch respectivo ao erro.\n");
 
