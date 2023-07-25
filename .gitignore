@@ -1,0 +1,28 @@
+# Ignorar arquivos de compilação e objetos
+*.exe
+*.dll
+*.pdb
+*.class
+
+# Ignorar arquivos gerados pelo Visual Studio
+*.user
+*.obj
+*.vs
+
+# Ignorar arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Ignorar arquivos de dependências e pacotes
+node_modules/
+packages/
+
+# Ignorar arquivos de log e cache
+*.log
+*.cache
+
+# Ignorar arquivos e diretórios específicos
+bin/
+obj/
+logs/
+tmp/
