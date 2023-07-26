@@ -52,8 +52,6 @@ class Program
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine($"Arquivo '{nomeArquivo}' criado com sucesso no diretório: {diretorioAtual}");
                     Console.ResetColor();
-
-                   
                 }
                 else
                 {
@@ -90,7 +88,7 @@ class Program
                         Console.WriteLine(linha);
                     }
                 }
-                
+
             }
         }
     }
