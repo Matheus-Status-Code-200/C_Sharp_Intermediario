@@ -40,7 +40,7 @@ class Program
 
     public decimal Balance{
         /* 
-        Somente a classe pode agora passar um valor para balance o que o protege
+        Somente a classe pode agora passar um valor para balance pois o metodo set é privado, o que o protege
         de ser manipulado por um elemento fora da classe.
         */
         get;
