@@ -11,7 +11,7 @@ class Program
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine("\nTratamento de exceção");
         Console.WriteLine("-----------------------------------\n");
-        Console.WriteLine("Este programa usa classes trata os erros gerados.");
+        Console.WriteLine("Este programa usa classes e trata os erros gerados.");
         Console.WriteLine("Simulação de deposito bancário.\n");
 
         try{
