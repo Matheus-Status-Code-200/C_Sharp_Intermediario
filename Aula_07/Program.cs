@@ -17,7 +17,7 @@ class Program
         Console.ReadKey();
         Console.Clear();
 
-        string[] linhas = null; // Declara a variável fora do escopo do try
+        string[]? linhas = null; // Declara a variável fora do escopo do try
         
         // Obter o diretório atual em que o programa está rodando
         string diretorioAtual = Environment.CurrentDirectory;
@@ -75,7 +75,8 @@ class Program
             if (linhas != null)
             {
                 Console.WriteLine("\nDeseja ver o conteúdo do arquivo? (sim/não): ");
-                string resposta = Console.ReadLine().ToLower();
+                string resposta = Console.ReadLine() ?? "não";
+                resposta = resposta.ToLower();
                 if (resposta == "sim" || resposta == "s")
                 {
                     // Ler novamente o arquivo após a gravação
@@ -87,6 +88,8 @@ class Program
                     {
                         Console.WriteLine(linha);
                     }
+                }else{
+                    Console.WriteLine("Fim....");
                 }
 
             }
