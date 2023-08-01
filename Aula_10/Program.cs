@@ -17,15 +17,17 @@ class Program
         var numero1 = 10;
         var numero2 = 20;
         var numdouble = 1.223;
-        var stringimplicita = "Matheus";
+        var stringImplicita = "Matheus";
         var calculo = new Calculo(Soma);
         var resultado = calculo(numero1, numero2);
 
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("O Resultado da soma é: " + resultado);
+        Console.WriteLine("O Resultado da multiplicação é: " + resultado*numdouble);
+        Console.WriteLine("Feito por: " + stringImplicita);
         
 
-        Console.WriteLine("\nProjetos: https://github.com/Matheus-Status-Code-200\n");
+        Console.WriteLine("\nMais Projetos: https://github.com/Matheus-Status-Code-200\n");
         Console.ResetColor();
     }
 
